@@ -1,12 +1,12 @@
 import './App.css';
-import { Image } from './components/Image';
 import { Content } from './components/Content';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Image />
       <Content />
+      <Footer />
 
     </div>
   );
